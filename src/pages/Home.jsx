@@ -1,3 +1,4 @@
+import About from "../components/About";
 import CardMoto from "../components/CardMoto";
 import Header from "../components/Header";
 import { useEffect, useState } from "react"
@@ -33,10 +34,12 @@ export default function Home() {
     return (
         <div className="bg-zinc-950 min-h-dvh">
             <Header />
-            
+
             {/* Container principal limitando a largura máxima da tela */}
-            <main className="max-w-7xl mx-auto px-6 mt-10"> 
-                
+            <main className="max-w-7xl mx-auto px-6 mt-10">
+
+                <About />
+
                 {/* Container do select alinhado à esquerda (start) */}
                 <div className="flex justify-start mb-6">
                     <select
