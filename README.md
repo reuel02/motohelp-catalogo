@@ -6,7 +6,7 @@
 
 ## 📸 Preview
 
-![Preview do MotoGarage](./public/assets/ducati_panigale_v4r.png)
+![Preview do MotoGarage](./public/assets/preview.png)
 
 ---
 
